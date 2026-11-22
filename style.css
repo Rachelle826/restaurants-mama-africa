@@ -53,3 +53,24 @@ h2 {
     border-bottom: 2px solid #b34700;
     padding-bottom: 5px;
 }
+
+.photo-accueil {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.bouton {
+    display: inline-block;
+    background-color: #b34700;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.bouton:hover {
+    background-color: #8a3700;
+}
