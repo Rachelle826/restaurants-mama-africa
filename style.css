@@ -134,3 +134,18 @@ main ul {
 main li {
     padding: 8px 0;
 }
+
+@media (max-width: 600px) {
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    main {
+        padding: 10px;
+    }
+}
