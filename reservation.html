@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réservation - Chez Mama Africa</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="menu.html">Menu</a>
+            <a href="reservation.html">Réservation</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Réservation de table</h1>
+        <form action="#" method="post">
+            <label for="nom">Nom:</label>
+            <input type="text" id="nom" name="nom" required>
+
+            <label for="telephone">Téléphone:</label>
+            <input type="tel" id="telephone" name="telephone" required>
+
+            <label for="date">Date de réservation:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="heure">Heure de réservation:</label>
+            <input type="time" id="heure" name="heure" required>
+
+            <label for="personnes">Nombre de personnes:</label>
+            <input type="number" id="personnes" name="personnes" min="1" max="20" required>
+
+            <label for="message">Message (facultatif)</label>
+            <textarea id="message" name="message"></textarea>
+
+            <button type="submit">Réserver</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2026 Chez Mama Africa</p>
+    </footer>
+</body>
+</html>
