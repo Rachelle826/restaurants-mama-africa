@@ -106,3 +106,31 @@ button {
 button:hover {
     background-color: #8a3700;
 }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    margin-top: 20px;
+}
+
+th,
+td {
+    padding: 12px;
+    border: 1px solid #dddddd;
+    text-align: left;
+}
+
+th {
+    background-color: #b34700;
+    color: white;
+}
+
+main ul {
+    list-style: none;
+    padding: 0;
+}
+
+main li {
+    padding: 8px 0;
+}
