@@ -1,0 +1,25 @@
+const sections = {
+    entrees: document.getElementById("entrees"),
+    plats: document.getElementById("plats"),
+    desserts: document.getElementById("desserts")
+};
+
+function afficherSeulement(nom) {
+    sections.entrees.style.display = "none";
+    sections.plats.style.display = "none";
+    sections.desserts.style.display = "none";
+
+    sections[nom].style.display = "block";
+}
+
+document.getElementById("btn-entrees").addEventListener("click", function () {
+    afficherSeulement("entrees");
+});
+
+document.getElementById("btn-plats").addEventListener("click", function () {
+    afficherSeulement("plats");
+});
+
+document.getElementById("btn-desserts").addEventListener("click", function () {
+    afficherSeulement("desserts");
+});

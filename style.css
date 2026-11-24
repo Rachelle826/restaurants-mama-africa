@@ -149,3 +149,8 @@ main li {
         padding: 10px;
     }
 }
+.filtres {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
