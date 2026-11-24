@@ -23,3 +23,8 @@ document.getElementById("btn-plats").addEventListener("click", function () {
 document.getElementById("btn-desserts").addEventListener("click", function () {
     afficherSeulement("desserts");
 });
+document.getElementById("btn-tout").addEventListener("click", function () {
+    sections.entrees.style.display = "block";
+    sections.plats.style.display = "block";
+    sections.desserts.style.display = "block";
+});
