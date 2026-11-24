@@ -28,60 +28,72 @@
         <section id="entrees">
             <h2>Entrées</h2>
 
-            <div class="plat">
-                <h3>Salade de crudités</h3>
-                <p>Tomates, oignon et feuilles de salade</p>
-                <p>1500 FCFA</p>
-            </div>
-
-            <div class="plat">
+           <div class="plat" data-nom="Salade de crudités" data-prix="1500">
+    <h3>Salade de crudités</h3>
+    <p>Tomates, oignon et feuilles de salade</p>
+    <p>1500 FCFA</p>
+    <button class="btn-ajouter">Ajouter</button>
+</div>
+            <div class="plat" data-nom="Soupe de légumes" data-prix="2000">
                 <h3>Igname pilée</h3>
                 <p>Igname pilée avec sauce d'arachide</p>
                 <p>1000 FCFA</p>
+                <button class="btn-ajouter">Ajouter</button>
             </div>
-            <div class="plat">
+            <div class="plat" data-nom="Pâte noire" data-prix="1500">
                 <h3>Pâte noire</h3>
                 <p>Pâte noire avec sauce graine</p>
                 <p>1500 FCFA</p>
+                <button class="btn-ajouter">Ajouter</button>
             </div>
         </section>
         <section id="plats ">
             <h2>Plats principaux</h2>
-            <div class="plat">
+            <div class="plat" data-nom="Riz au gras" data-prix="3000">
                 <h3>Riz au gras</h3>
                 <p>Riz accompagné de sauce graine et de viande</p>
                 <p>3000 FCFA</p>
+                <button class="btn-ajouter">Ajouter</button>
             </div>
-            <div class="plat">
+            <div class="plat" data-nom="Riz blanc" data-prix="2000">
                 <h3>Riz blanc</h3>
                 <p>Riz blanc avec sauce de viande</p>
                 <p>2000 FCFA</p>
+                <button class="btn-ajouter">Ajouter</button>
             </div>
-            <div class="plat">
+            <div class="plat" data-nom="Spaghetti" data-prix="2000">
                 <h3>Spaghetti</h3>
                 <p>Spaghetti avec poulet</p>
                 <p>2000 FCFA</p>
+                <button class="btn-ajouter">Ajouter</button>
             </div>
         </section>
         <section id="desserts">
             <h2>Desserts</h2>
-            <div class="plat">
+            <div class="plat" data-nom="Gâteau" data-prix="3500">
                 <h3>Gâteau</h3>
                 <p>Gâteau au chocolat</p>
                 <p>3500 FCFA</p>
+                <button class="btn-ajouter">Ajouter</button>
             </div>
-            <div class="plat">
+            <div class="plat" data-nom="Croissant" data-prix="2000">
                 <h3>Croissant</h3>
                 <p>Croissant au chocolat</p>
                 <p>2000 FCFA</p>
+                <button class="btn-ajouter">Ajouter</button>
             </div>
-            <div class="plat">
+            <div class="plat" data-nom="Beignet" data-prix="1000">
                 <h3>Beignet</h3>
                 <p>Beignet de banane</p>
                 <p>1000 FCFA</p>
+                <button class="btn-ajouter">Ajouter</button>
             </div>
         </section>
-
+        <section id="panier">
+    <h2>Mon panier</h2>
+    <ul id="liste-panier"></ul>
+    <p>Total : <span id="total">0</span> FCFA</p>
+</section>
     </main>
     <footer>
         <p>&copy; 2026 Chez Mama Africa</p>
